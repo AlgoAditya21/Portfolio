@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adityaraj Pal | Full Stack Developer Portfolio</title>
+  <meta name="description" content="Adityaraj Pal — Aspiring Full Stack Developer, CS & AI Undergrad. MERN Stack, React, Node.js, MongoDB, TypeScript.">
+  <meta property="og:title" content="Adityaraj Pal | Full Stack Developer">
+  <meta property="og:description" content="Personal portfolio of Adityaraj Pal — Full Stack Developer & CS/AI Undergrad">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0A0A0F">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="preloader-logo">&lt;AP /&gt;</div>
+  <div class="preloader-bar"><div class="preloader-bar-inner"></div></div>
+</div>
+
+<!-- Cursor Glow -->
+<div class="cursor-glow"></div>
+
+<!-- Particle Canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Toast -->
+<div id="toast" class="toast"></div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <a href="#" class="nav-logo">&lt;AP /&gt;</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <p class="hero-greeting">👋 Hello, I'm</p>
+    <h1 class="hero-name">Adityaraj Pal</h1>
+    <p class="hero-tagline"><span id="typewriter"></span><span class="typed-cursor">|</span></p>
+    <p class="hero-desc">
+      CS & AI Undergrad at Newton School of Technology. Passionate about building scalable web applications,
+      solving problems, and turning ideas into polished digital experiences.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="https://drive.google.com/file/d/1YdpNEnyzqB69Q3hoegvOY3ebsFfpr8pF/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-outline"><i class="fa-solid fa-download"></i>&nbsp; Download Resume</a>
+      <a href="https://algoaditya21.github.io/DVA-Portfolio/" target="_blank" rel="noopener noreferrer" class="btn-gradient"><i class="fa-solid fa-chart-bar"></i>&nbsp; My Data Analyst Portfolio</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/AlgoAditya21" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/adityaraj-pal-5b2b94275/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://leetcode.com/u/AlgoAditya21/" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+      <a href="https://www.codechef.com/users/algo_aditya21" target="_blank" aria-label="CodeChef"><span class="social-text">CF</span></a>
+      <a href="mailto:paladityaraj353@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="hero-image-wrap">
+    <div class="hero-image-glow"></div>
+    <div class="hero-image-border">
+      <img src="assets/image1.png" alt="Adityaraj Pal" class="hero-image">
+    </div>
+    <!-- Floating tech icons around the image -->
+    <span class="hero-float-icon" style="top:-10%;left:10%;"><i class="fa-brands fa-react"></i></span>
+    <span class="hero-float-icon" style="top:15%;right:-8%;"><i class="fa-brands fa-node-js"></i></span>
+    <span class="hero-float-icon" style="bottom:20%;right:-5%;"><i class="fa-brands fa-js"></i></span>
+    <span class="hero-float-icon" style="bottom:-5%;left:15%;"><i class="fa-brands fa-python"></i></span>
+    <span class="hero-float-icon" style="top:40%;left:-10%;"><i class="fa-solid fa-database"></i></span>
+  </div>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about">
+  <p class="section-label">About Me</p>
+  <h2 class="section-title">Turning Ideas Into Reality</h2>
+  <div class="about-grid">
+    <div>
+      <div class="about-image-wrap">
+        <div class="about-image">👨‍💻</div>
+      </div>
+    </div>
+    <div>
+      <p class="section-subtitle" style="margin-bottom:20px">
+        I'm Adityaraj Pal, an aspiring Full Stack Developer and CS & AI undergrad at Newton School of Technology, Rishihood University.
+        I specialize in the MERN stack and love crafting clean, performant web experiences. With 200+ LeetCode questions solved,
+        a 4-star HackerRank rating in Python, and contributions to Hacktoberfest 2024, I thrive on continuous learning and building impactful projects.
+      </p>
+      <div class="about-tags">
+        <span class="about-tag">🚀 MERN Stack</span>
+        <span class="about-tag">🐍 Python</span>
+        <span class="about-tag">🧠 AI/ML Enthusiast</span>
+        <span class="about-tag">🏸 Badminton Player</span>
+        <span class="about-tag">💡 Problem Solver</span>
+        <span class="about-tag">🌐 Open Source</span>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-number" data-target="400" data-suffix="+">0</div>
+          <div class="stat-label">LeetCode Problems</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="4" data-suffix="★">0</div>
+          <div class="stat-label">CodeChef (1871)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="6" data-suffix="+">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="7" data-suffix=".4">0</div>
+          <div class="stat-label">CGPA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SKILLS ==================== -->
+<section id="skills">
+  <p class="section-label">My Skills</p>
+  <h2 class="section-title">Technologies I Work With</h2>
+  <p class="section-subtitle">A collection of tools and technologies I use to bring ideas to life.</p>
+  <div class="skills-grid">
+    <!-- Frontend -->
+    <div class="skill-category">
+      <h3 class="skill-cat-title"><span class="skill-cat-icon">🎨</span> Frontend</h3>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">React.js</span><span class="skill-percent">90%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percent">80%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="80%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">HTML / CSS / JS</span><span class="skill-percent">95%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="95%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">TailwindCSS</span><span class="skill-percent">85%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+      </div>
+    </div>
+    <!-- Backend -->
+    <div class="skill-category">
+      <h3 class="skill-cat-title"><span class="skill-cat-icon">⚙️</span> Backend</h3>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Node.js</span><span class="skill-percent">85%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Express.js</span><span class="skill-percent">85%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percent">80%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="80%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">REST APIs</span><span class="skill-percent">90%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
+      </div>
+    </div>
+    <!-- Database & Tools -->
+    <div class="skill-category">
+      <h3 class="skill-cat-title"><span class="skill-cat-icon">🗄️</span> Database & Tools</h3>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">MongoDB</span><span class="skill-percent">85%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Supabase / PostgreSQL</span><span class="skill-percent">75%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="75%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Git & GitHub</span><span class="skill-percent">90%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Figma</span><span class="skill-percent">70%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-width="70%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+<section id="projects">
+  <p class="section-label">My Work</p>
+  <h2 class="section-title">Featured Projects</h2>
+  <p class="section-subtitle">A selection of projects I've built — and a preview of what's coming next.</p>
+
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="ai">AI / ML</button>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Project 1: JAR AI -->
+    <div class="project-card" data-category="ai">
+      <div class="project-thumb">
+        <img src="assets/project1.png" alt="JAR AI Project Screenshot">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">AI</span>
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">Career Coaching</span>
+        </div>
+        <h3 class="project-title">JAR AI — AI Career Coach</h3>
+        <p class="project-desc">An intelligent career development platform that leverages AI to build resumes, generate cover letters, and help users practice for interviews.</p>
+        <div class="project-links">
+          <a href="https://ai-career-coach-three-beta.vercel.app/" class="project-link demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+          <a href="https://github.com/AlgoAditya21/AI_Career_Coach" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2: Property Price Prediction -->
+    <div class="project-card" data-category="ai">
+      <div class="project-thumb">
+        <img src="assets/project2.png" alt="Property Price Prediction Project">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Streamlit</span>
+          <span class="project-tag">Data Analysis</span>
+        </div>
+        <h3 class="project-title">Property Price Prediction</h3>
+        <p class="project-desc">Machine Learning web application that predicts real estate prices in Bangalore based on property attributes like location, area, and room count.</p>
+        <div class="project-links">
+          <a href="https://property-price-prediction-gtimcwa4dxim7wch7wjgvt.streamlit.app/" class="project-link demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+          <a href="https://github.com/AlgoAditya21/Property-Price-Prediction" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3: The Hub Stay -->
+    <div class="project-card" data-category="fullstack">
+      <div class="project-thumb">
+        <img src="assets/project3.png" alt="The Hub Stay Project">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">MongoDB</span>
+          <span class="project-tag">Geocoding</span>
+        </div>
+        <h3 class="project-title">The Hub Stay</h3>
+        <p class="project-desc">Full-stack hotel and property booking platform enabling users to browse, book accommodations, and list properties. Integrated interactive maps with geocoding for location-based discovery.</p>
+        <div class="project-links">
+          <a href="https://the-hub-stay.onrender.com/" class="project-link demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+          <a href="https://github.com/AlgoAditya21/The-Hub-Stay" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4: Fintech Dashboard -->
+    <div class="project-card" data-category="frontend">
+      <div class="project-thumb">
+        <img src="assets/project4.png" alt="Fintech Dashboard Project">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">Tailwind CSS</span>
+          <span class="project-tag">Charts.js</span>
+          <span class="project-tag">Responsive</span>
+        </div>
+        <h3 class="project-title">Fintech Dashboard</h3>
+        <p class="project-desc">Modern, responsive finance dashboard for tracking income, expenses, and financial insights through interactive charts and transaction management.</p>
+        <div class="project-links">
+          <a href="https://zorvyn-fintech-dashboard.vercel.app/" class="project-link demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+          <a href="https://github.com/AlgoAditya21/Fintech-Dashboard" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5: Image Detection -->
+    <div class="project-card" data-category="fullstack">
+      <div class="project-thumb">
+        <img src="assets/project5.png" alt="Image Detection Project">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">YOLOv8</span>
+          <span class="project-tag">Computer Vision</span>
+          <span class="project-tag">React</span>
+          <span class="project-tag">Python</span>
+        </div>
+        <h3 class="project-title">Image Detection</h3>
+        <p class="project-desc">Web application for object detection using YOLOv8. Upload images and get predictions with bounding boxes, confidence scores, and detailed statistics.</p>
+        <div class="project-links">
+          <a href="https://space-google.vercel.app/" class="project-link demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+          <a href="https://github.com/AlgoAditya21/Space-Google" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ongoing: Smoke Prediction -->
+    <div class="project-card coming-soon" data-category="ai">
+      <div class="project-thumb" style="background: linear-gradient(135deg, #2b2d42, #8d99ae);"></div>
+      <div class="project-body">
+        <div class="project-tags"><span class="project-tag">In Progress</span></div>
+        <h3 class="project-title">Smoke Prediction Using Bio Signals</h3>
+        <p class="project-desc">Using binary classification to predict a patient's smoking status and quitting probability given health indicators and bio-signal data.</p>
+        <div class="project-links">
+          <a href="https://github.com/AlgoAditya21/Smoke-Prediction-Using-bio-signals" class="project-link github" target="_blank" rel="noopener noreferrer">📦 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== EXPERIENCE ==================== -->
+<section id="experience">
+  <p class="section-label">Experience</p>
+  <h2 class="section-title">My Journey</h2>
+  <p class="section-subtitle">Key milestones and contributions shaping my career path.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-date">Present</span>
+        <h3 class="timeline-role">Campus Ambassador</h3>
+        <p class="timeline-company">GeeksforGeeks (GFG)</p>
+        <ul class="timeline-list">
+          <li>Representing GeeksforGeeks on campus promoting coding culture and technical initiatives</li>
+          <li>Engaging students with learning resources and community-driven tech events</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-date">6-Month Internship</span>
+        <h3 class="timeline-role">Technical Content Engineer</h3>
+        <p class="timeline-company">GeeksforGeeks</p>
+        <ul class="timeline-list">
+          <li>Selected participant to work on technical content creation and developer resources</li>
+          <li>Achieved Institute Rank of 1 in GeeksforGeeks</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-date">Dec 2024 — Dec 2025</span>
+        <h3 class="timeline-role">Vice President</h3>
+        <p class="timeline-company">AI Club</p>
+        <ul class="timeline-list">
+          <li>Leading AI Club activities by organizing workshops, tech sessions, and mentoring on AI/ML fundamentals</li>
+          <li>Coordinating hackathons and collaborations to promote hands-on AI innovation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-date">Nov 2024 — Present</span>
+        <h3 class="timeline-role">Active Member</h3>
+        <p class="timeline-company">Google Developer Groups (GDG)</p>
+        <ul class="timeline-list">
+          <li>Participating in developer workshops, tech meetups, and community events</li>
+          <li>Collaborating in AI/ML learning initiatives with hands-on exposure to Google technologies</li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="timeline-date">Recognition & Awards</span>
+        <h3 class="timeline-role">Notable Achievements</h3>
+        <p class="timeline-company">Competitions & Certifications</p>
+        <ul class="timeline-list">
+          <li>🏆 Prime Minister's Trophy-Merit Scholarship (Bhilai Steel Plant)</li>
+          <li>🥇 International Mathematics Olympiad - Zonal Rank 9 (SOF)</li>
+          <li>🎖️ HackWithIndia BuildIt 2025 (Microsoft) - Selected Participant</li>
+          <li>🏅 Top 10 Teams - Smart India Hackathon (SIH) within college</li>
+          <li>⭐ Rank 5 - CodeChef Starters 224</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EDUCATION ==================== -->
+<section id="education">
+  <p class="section-label">Education</p>
+  <h2 class="section-title">Academic Background</h2>
+  <p class="section-subtitle">My educational journey and certifications.</p>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <h3 class="edu-degree">B.Tech — Artificial Intelligence</h3>
+      <p class="edu-school">Newton School of Technology, Rishihood University</p>
+      <p class="edu-year">2024 — 2028</p>
+      <p class="edu-grade">CGPA: 7.404 / 10.0</p>
+    </div>
+    <div class="edu-card">
+      <div class="edu-icon">🏆</div>
+      <h3 class="edu-degree">Visual Vortex 1.0 — Top 10 Teams</h3>
+      <p class="edu-school">Newton School of Technology UI/UX Hackathon</p>
+      <p class="edu-year">April 2024</p>
+      <p class="edu-grade">Design thinking & problem-solving excellence</p>
+    </div>
+    <div class="edu-card">
+      <div class="edu-icon">🎯</div>
+      <h3 class="edu-degree">4★ (1871) — CodeChef</h3>
+      <p class="edu-school">CodeChef Competitive Programming</p>
+      <p class="edu-year">2024</p>
+      <p class="edu-grade">Love solving DSA problems</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact">
+  <p class="section-label">Get In Touch</p>
+  <h2 class="section-title">Let's Build Something Together</h2>
+  <p class="section-subtitle">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+  <div class="contact-grid">
+    <div>
+      <div class="contact-info-item">
+        <div class="contact-icon">📧</div>
+        <div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value">paladityaraj353@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-icon">📱</div>
+        <div>
+          <p class="contact-label">Phone</p>
+          <p class="contact-value">+91 7828193265</p>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <p class="contact-label">Location</p>
+          <p class="contact-value">India</p>
+        </div>
+      </div>
+      <div class="availability-badge">
+        <span class="availability-dot"></span>
+        Open to Work & Collaborations
+      </div>
+      <div class="contact-socials">
+        <a href="https://github.com/AlgoAditya21" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/adityaraj-pal-5b2b94275/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/AlgoAditya21/" target="_blank"><i class="fa-solid fa-code"></i></a>
+        <a href="https://www.codechef.com/users/algo_aditya21" target="_blank"><span class="social-text">CF</span></a>
+      </div>
+    </div>
+    <form id="contact-form" class="contact-form">
+      <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+      <div class="form-group"><input type="email" placeholder="Your Email" required></div>
+      <div class="form-group"><textarea placeholder="Your Message" required></textarea></div>
+      <button type="submit" class="btn-submit">Send Message 🚀</button>
+    </form>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-copy">Designed & Built with <span>❤️</span> by Adityaraj Pal &copy; 2026</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
